@@ -1,11 +1,11 @@
 '''
-    Linear Regression Model using Gradient Descent
+    Multivariate Regression Model using Gradient Descent
 
     Hilda Beltrán Acosta
     A01251916
 '''
 
-# Import necessary libraries to implement linear regression with GD
+# Import necessary libraries to implement multivariate regression with GD
 import numpy
 import pandas as pd
 # Matplotlib and sklearn metrics are only used to visualize and test
@@ -34,7 +34,7 @@ y = df['petal width'][:125].to_numpy()
 x_test = df[['bias', 'sepal length', 'sepal width', 'petal length']][126:].to_numpy()
 y_real = df['petal width'][126:].to_numpy()
 
-# y_pred is used at the end to validate the linear regression model
+# y_pred is used at the end to validate the multivariate regression model
 y_pred = numpy.zeros((x_test.shape[0]))
 
 '''
