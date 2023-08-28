@@ -9,3 +9,5 @@ The Multivariate Regression Model using Gradient Descent is implemented without 
 # Files
 ## Dataset
 The Dataset used for this implementation is 'iris.data', which can be found in this GitHub Repository. In order to change the Dataset there are some modifications that need to be done in the script before executing it; such as changing the loading file for the DataFrame and changing the columns name from the DataFrame that are going to be used.
+## linearregression_gd.py
+This is the file that needs to be executed to train the model and validate it.
